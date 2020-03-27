@@ -14,7 +14,7 @@ import { Goal } from './goal';
 //   }
 // }
 export class AppComponent {
-  goals:Goal = [
+  goals :Goal = [
     {id:1, name:'Watch finding Nemo'},
     {id:2,name:'Buy Cookies'},
     {id:3,name:'Get new Phone Case'},
