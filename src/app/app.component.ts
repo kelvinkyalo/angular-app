@@ -13,8 +13,18 @@ import { Goal } from './goal';
 //     this.goals = ['Watch finding Nemo', 'Buy cookies', 'Get new phone case']
 //   }
 // }
+// export class AppComponent {
+//   goals :Goal = [
+//     {id:1, name:'Watch finding Nemo'},
+//     {id:2,name:'Buy Cookies'},
+//     {id:3,name:'Get new Phone Case'},
+//     {id:4,name:'Get Dog Food'},
+//     {id:5,name:'Solve math homework'},
+//     {id:6,name:'Plot my world domination plan'},
+//   ];
+// }
 export class AppComponent {
-  goals :Goal = [
+  goals:Goal = [
     {id:1, name:'Watch finding Nemo'},
     {id:2,name:'Buy Cookies'},
     {id:3,name:'Get new Phone Case'},
@@ -23,3 +33,4 @@ export class AppComponent {
     {id:6,name:'Plot my world domination plan'},
   ];
 }
+
